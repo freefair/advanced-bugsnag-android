@@ -1,4 +1,4 @@
-Bugsnag Notifier for Android <img src="https://travis-ci.org/bugsnag/bugsnag-android.svg?branch=master" alt="build status" class="build-status">
+Advanced Bugsnag Notifier for Android <img src="https://travis-ci.org/freefair/advanced-bugsnag-android.svg?branch=master" alt="build status" class="build-status">
 ============================
 
 [Bugsnag](https://bugsnag.com) for Android automatically detects crashes in
@@ -14,29 +14,23 @@ Installation
 
 ### Using Android Studio or Gradle
 
-Add `bugsnag-android` to the `dependencies` section in your `build.gradle`:
+Add `advanced-bugsnag-android` to the `dependencies` section in your `build.gradle`:
 
 ```gradle
-compile 'com.bugsnag:bugsnag-android:+'
+compile 'io.freefair:bugsnag-android:+'
 ```
 
 ### Using Maven
 
-Add `bugsnag-android` as a dependency in your `pom.xml`:
+Add `advanced-bugsnag-android` as a dependency in your `pom.xml`:
 
 ```xml
 <dependency>
-    <groupId>com.bugsnag</groupId>
-    <artifactId>bugsnag-android</artifactId>
+    <groupId>io.freefair</groupId>
+    <artifactId>advanced-bugsnag-android</artifactId>
     <version>LATEST</version>
 </dependency>
 ```
-
-### Using a Jar
-
--   Download the [latest bugsnag-android.jar](https://github.com/bugsnag/bugsnag-android/releases/latest)
--   Place it in your Android app's `libs/` folder
-
 
 Configuring Your AndroidManifest
 --------------------------------
@@ -338,14 +332,14 @@ Reporting Bugs or Feature Requests
 Please report any bugs or feature requests on the github issues page for this
 project here:
 
-<https://github.com/bugsnag/bugsnag-android/issues>
+<https://github.com/freefair/advanced-bugsnag-android/issues>
 
 
 Contributing
 ------------
 
 We'd love to see your contributions! For information on how to build, test
-and release `bugsnag-android`, see our [contributing guide](https://github.com/bugsnag/bugsnag-android/blob/master/CONTRIBUTING.md).
+and release `advanced-bugsnag-android`, see our [contributing guide](https://github.com/bugsnag/advanced-bugsnag-android/blob/master/CONTRIBUTING.md).
 
 
 License
