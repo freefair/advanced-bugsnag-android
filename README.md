@@ -1,4 +1,4 @@
-Advanced Bugsnag Notifier for Android <img src="https://travis-ci.org/freefair/advanced-bugsnag-android.svg?branch=master" alt="build status" class="build-status">
+Advanced Bugsnag Notifier for Android <a href="https://travis-ci.org/freefair/advanced-bugsnag-android"><img src="https://travis-ci.org/freefair/advanced-bugsnag-android.svg?branch=master" alt="build status" class="build-status"></a>
 ============================
 
 [Bugsnag](https://bugsnag.com) for Android automatically detects crashes in
@@ -43,13 +43,12 @@ Configuring Your AndroidManifest
     </application>
     ```
 
--   Enable the `INTERNET`, `ACCESS_NETWORK_STATE` and `GET_TASKS` permissions:
+-   Recommended: Enable the `ACCESS_NETWORK_STATE` and `GET_TASKS` permissions:
 
     ```xml
-    <!-- Required: Used to deliver Bugsnag crash reports -->
-    <uses-permission android:name="android.permission.INTERNET"/>
     <!-- Optional: To provide network connectivity information to Bugsnag -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <!-- Optional: To see which Activity was active at the time of a crash -->
     <uses-permission android:name="android.permission.GET_TASKS"/>
     ```

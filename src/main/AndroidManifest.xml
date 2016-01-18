@@ -3,4 +3,7 @@
   package="com.bugsnag.android"
   android:versionCode="1">
 
+  <!-- Required: Used to deliver Bugsnag crash reports -->
+  <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>
